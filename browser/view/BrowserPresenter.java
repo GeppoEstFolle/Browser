@@ -52,9 +52,9 @@ public class BrowserPresenter {
         for(String split:splits){
             strings.add(split);
         }
-        String query= String.join("%20", strings);
+        String query= String.join("+", strings);
             wEngine.load(String.format(
-        "https://www.google.it/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=%s"
+        "https://www.google.it/#q=%s"
             ,query));
         });
         //definisco le azioni dei pulsanti del Browser,aggiungendo i menu contestuali.
