@@ -1,2 +1,2 @@
 # Browser
-Browser use javafx 8
+Browser use java 8
